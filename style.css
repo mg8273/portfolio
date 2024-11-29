@@ -1,0 +1,188 @@
+/* General Styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f27878; /* Light gray background */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6; /* Improved readability */
+    margin: 0;
+    padding: 0;
+}
+#main-title{
+    background-color: #9bd9ec;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+h1, h2, h3 {
+    color: #333; /* Dark color for headings */
+}
+
+p {
+    color: #555; /* Darker gray for paragraph text */
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #2b3a49; /* Bootstrap primary color */
+    padding: 15px;
+    text-align: center; /* Center align navbar items */
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.navbar a {
+    color: white; /* White text color */
+    text-decoration: none;
+    font-weight: bold; /* Bold text for links */
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px; /* Spacing below main title */
+}
+
+/* Team Section Styles */
+.team-member {
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center vertically */
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px; /* Rounded corners */
+    background-color: #fff; /* White background for team member cards */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Subtle shadow effect */
+}
+
+.team-pic {
+    width: 120px; /* Set width for team member images */
+    height: 120px; /* Set height to maintain aspect ratio */
+    border-radius: 50%; /* Circular images */
+    margin-right: 15px; /* Space between image and text */
+}
+
+.team-member h3 {
+    margin-top: 0; /* Remove top margin from headings in team member section */
+}
+
+/* Mission Section Styles */
+section {
+    padding: 20px;
+}
+
+/* Contact Information Section Styles */
+#contact-info {
+    background-color: #e9ecef; /* Light gray background for contact section */
+    padding: 15px;
+    border-radius: 8px; /* Rounded corners for contact section */
+}
+
+/* List Styles */
+ul {
+    list-style-type: none; /* Remove bullet points from lists */
+    padding-left: 0; /* Remove default padding */
+}
+
+ul li {
+    padding: 5px 0; /* Spacing between list items */
+}
+
+/* Button Styles (if needed) */
+input[type="submit"] {
+    background-color: #007BFF; /* Button color matching navbar */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #f27878; /* Darker shade on hover */
+}
+#img2{
+    height: 200px;
+}
+#aboutme2{
+    background-color: #9bd9ec ;
+    margin-top: 10px;
+    background-color: #9bd9ec;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#sec3{
+    background-color: #9bd9ec;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+#sec4{
+    background-color: #9bd9ec;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+table{
+    background-color: #ffffff   ;
+}
+#media{
+    background-color: #9bd9ec;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+#div1{
+    background-color: #9bd9ec;
+    background-color: #9bd9ec;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-left: 50px;
+    text-align: center;
+}   
+#formscon{
+    background-color: #9bd9ec;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-left: 50px;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    height: 450px;
+}
+#sec7{
+    background-color: #9bd9ec;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+

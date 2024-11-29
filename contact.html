@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html" target="_blank">Contact</a></li> <!-- Opens in new tab -->
+        </ul>
+    </nav>
+    <!-- Contact Form -->
+    <section id="contact">
+        <div id="div1">
+            <h2>Contact Me</h2>
+        </div>
+        <form action="#" method="post" id="formscon">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+
+            <!-- Radio Button -->
+            Interested in:
+            <input type="radio" id="webdev" name="interest" value="Web Development">
+            <label for="webdev">Web Development</label>
+            <input type="radio" id="appdev" name="interest" value="App Development">
+            <label for="appdev">App Development</label>
+            <input type="radio" id="dsa" name="interest" value="DSA">
+            <label for="dsa">DSA</label>
+<br><br>
+            <!-- Checkbox -->
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Subscribe to newsletter</label><br><br>
+
+            <!-- Select List -->
+            Preferred Contact Method:
+            <select id="contact-method">
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+                <option value="chat">Chat</option>
+                <option value="none">None</option>
+            </select><br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    
+</body>
+</html>
